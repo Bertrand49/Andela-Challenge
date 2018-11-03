@@ -1,0 +1,185 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'verdana';
+	font-size:16px;
+}
+body
+{
+	background:  #ecebeb ;
+}
+#sidebar
+{
+	position: fixed;
+	width:300px;
+	height: 100%;
+	background: #151719;
+}
+#sidebar.active
+{
+	left: -200px;
+
+}
+#sidebar ul li
+{
+	color: rgba(230,230,230,0.9);
+	list-style: none;
+	padding:15px 10px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn
+{
+	position:absolute;
+	left: 302px;
+	top:5px;;
+}
+#sidebar .toggle-btn span
+{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background:#151719;
+	margin:5px 0px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+
+}
+a:hover
+{
+border-left: 4px solid red;
+border-right:4px solid red;
+}
+ul li ul li
+{
+	display:none;
+}
+ul li:hover ul li
+{
+	margin-top: 5px;
+
+	display:block;
+}
+#bottom
+{
+	text-align: center;
+	border:1px solid white;
+	width: 76%;
+	background:white;
+	height: 50px;
+	position:absolute;
+	bottom: 3;
+	padding-top: 30px;
+	left:23%;
+}
+#content
+{
+	position: absolute;
+	right: 0;
+	height:400px;
+	background:  #ecebeb ;
+	text-align: center;
+	right:500px;
+	top:150;
+	left:700px;
+	font-family: 'Cambria';
+}
+.homeicon
+{
+	margin-top:12px;
+
+}
+#content #Created
+{
+	left:300px;
+	background:   #8dd3f3  ;
+	width:200px;
+	height:100px;
+	text-align: center;
+	font-size: 14px;
+	color:white;
+	font-weight: bold;
+	border-bottom: 3px #ecebeb solid;
+	padding-top: 20px;
+}
+#content #Canceled
+{
+	left:300px;
+	background:  #e34928 ;
+	width:200px;
+	height:100px;
+	text-align: center;
+	font-size: 14px;
+	color:white;
+	font-weight: bold;
+	right:100px;
+	border-top: 3px #ecebeb solid;
+}
+#header
+{
+	top:1px;
+	border:1px solid white;
+	background:white;
+	height: 70px;
+}
+#header #title
+{
+	background:     #0fcf57 ;
+	width: 650px;
+	height:60px;
+	font-family: 'cambria';
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 4px;
+	padding-left: 180px;
+	margin-left: 2px;
+	text-align: left;
+
+}
+#header #welcome
+{
+	background:  #429ce7;
+	width: 400px;
+	height:62px;
+	font-family: 'Times New Roman';
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: -60px;
+	margin-left: 960px;
+	padding-left: -150px;
+}
+.wimg
+{
+	left: 20px;
+	border-radius: 20px;
+}
+span
+{
+	margin-top: 2px;
+
+}
+#personal-info
+{
+	border:1px solid red;
+	height: 400px;
+	width: 400px;
+	margin-left: 80px;
+	padding-left: 150px;
+	text-align: center;
+	font-family: 'Cambria';
+	font-weight: bold;
+	background-color: white;
+}
+#personal-info input
+{
+	height:40px;
+}
+.tableview
+{
+	margin-left:-400px;
+}
